@@ -55,6 +55,7 @@
 		156D02DE231D12A000E7B091 = {
 			isa = PBXGroup;
 			children = (
+				15D80AD12334CA2300C5875A /* README.md */,
 				15D80AD22334CA8D00C5875A /* doc */,
 				156D02E9231D12A000E7B091 /* HealthKitStepsCount */,
 				156D02E8231D12A000E7B091 /* Products */,
@@ -84,7 +85,6 @@
 				15D80ACB2334812C00C5875A /* StepsInDateTableViewCell.swift */,
 				15D80ACD2334AB1500C5875A /* StepsCountHeaderView.swift */,
 				15D80ACF2334C2C900C5875A /* TimeStepsViewController.swift */,
-				15D80AD12334CA2300C5875A /* README.md */,
 			);
 			path = HealthKitStepsCount;
 			sourceTree = "<group>";
