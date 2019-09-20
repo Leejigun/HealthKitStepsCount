@@ -17,6 +17,8 @@
 		15D80ACC2334812C00C5875A /* StepsInDateTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15D80ACB2334812C00C5875A /* StepsInDateTableViewCell.swift */; };
 		15D80ACE2334AB1500C5875A /* StepsCountHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15D80ACD2334AB1500C5875A /* StepsCountHeaderView.swift */; };
 		15D80AD02334C2C900C5875A /* TimeStepsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15D80ACF2334C2C900C5875A /* TimeStepsViewController.swift */; };
+		15D80AD52334CA9700C5875A /* detail.png in Resources */ = {isa = PBXBuildFile; fileRef = 15D80AD32334CA9700C5875A /* detail.png */; };
+		15D80AD62334CA9700C5875A /* main.png in Resources */ = {isa = PBXBuildFile; fileRef = 15D80AD42334CA9700C5875A /* main.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +35,9 @@
 		15D80ACB2334812C00C5875A /* StepsInDateTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepsInDateTableViewCell.swift; sourceTree = "<group>"; };
 		15D80ACD2334AB1500C5875A /* StepsCountHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepsCountHeaderView.swift; sourceTree = "<group>"; };
 		15D80ACF2334C2C900C5875A /* TimeStepsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeStepsViewController.swift; sourceTree = "<group>"; };
+		15D80AD12334CA2300C5875A /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		15D80AD32334CA9700C5875A /* detail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = detail.png; sourceTree = "<group>"; };
+		15D80AD42334CA9700C5875A /* main.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = main.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +55,7 @@
 		156D02DE231D12A000E7B091 = {
 			isa = PBXGroup;
 			children = (
+				15D80AD22334CA8D00C5875A /* doc */,
 				156D02E9231D12A000E7B091 /* HealthKitStepsCount */,
 				156D02E8231D12A000E7B091 /* Products */,
 				156D02FC231D12BA00E7B091 /* Frameworks */,
@@ -78,6 +84,7 @@
 				15D80ACB2334812C00C5875A /* StepsInDateTableViewCell.swift */,
 				15D80ACD2334AB1500C5875A /* StepsCountHeaderView.swift */,
 				15D80ACF2334C2C900C5875A /* TimeStepsViewController.swift */,
+				15D80AD12334CA2300C5875A /* README.md */,
 			);
 			path = HealthKitStepsCount;
 			sourceTree = "<group>";
@@ -88,6 +95,15 @@
 				156D02FD231D12BA00E7B091 /* HealthKit.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		15D80AD22334CA8D00C5875A /* doc */ = {
+			isa = PBXGroup;
+			children = (
+				15D80AD32334CA9700C5875A /* detail.png */,
+				15D80AD42334CA9700C5875A /* main.png */,
+			);
+			path = doc;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -153,6 +169,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				15D80AD52334CA9700C5875A /* detail.png in Resources */,
+				15D80AD62334CA9700C5875A /* main.png in Resources */,
 				156D02F5231D12A200E7B091 /* LaunchScreen.storyboard in Resources */,
 				156D02F2231D12A200E7B091 /* Assets.xcassets in Resources */,
 				156D02F0231D12A000E7B091 /* Main.storyboard in Resources */,
